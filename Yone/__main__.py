@@ -84,8 +84,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
-I have lots of handy features such as:
+A telegram group management bot. I'm here to help you to manage your groups and My master @Herox_XD.
+I have lots of handy features such as
 ‣ Warning system
 ‣ Artificial intelligence
 ‣ Flood control system
@@ -240,8 +240,8 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/Yone_Support"),
-                     InlineKeyboardButton(text="News", url="t.me/Yone_Updates"),
+                     InlineKeyboardButton(text="Support", url="t.me/sevenring_bots"),
+                     InlineKeyboardButton(text="News", url="t.me/seven_7_ring"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
